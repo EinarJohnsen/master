@@ -100,9 +100,7 @@ for x in range(0, 5):
         classifier = Sequential()
         classifier.add(Dense(50, activation='relu', input_dim=len(X[0])))
         classifier.add(Dropout(0.1))
-            #Second  Hidden Layer
         classifier.add(Dense(50, activation='relu'))
-
         classifier.add(Dense(1, activation='sigmoid'))
 
         
