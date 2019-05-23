@@ -63,6 +63,7 @@ for train, test in kfold.split(X, Y):
 
     classifier = Sequential()
     classifier.add(Dense(50, activation='relu', input_dim=len(X[train][0])))
+    classifier.add(Dropout(0.1))
     classifier.add(Dense(50, activation='relu'))
     classifier.add(Dense(1, activation='sgmoid'))
 
