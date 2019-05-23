@@ -113,7 +113,7 @@ for x in range(0, 5):
         #class_weight = {0 : 1., 1: 4.5}
         class_weight = {0 : 1., 1: 4}
 
-        history = classifier.fit(X, y_train, batch_size=32, epochs=15, class_weight=class_weight, validation_data=(X_test, y_test))
+        history = classifier.fit(X, y_train, batch_size=30, epochs=15, class_weight=class_weight, validation_data=(X_test, y_test))
 
         
             # predict probabilities for test set
