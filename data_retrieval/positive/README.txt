@@ -1,0 +1,1 @@
+Scripts used to download weather data for positive samples. These should be from a csv file for accidents one wish to download. Simpler to use the data already retrieved from the data folder. Note that downloading data may take a long time. 
